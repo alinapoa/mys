@@ -1,0 +1,85 @@
+<html>
+ <head>
+  <title>Регистрация</title>
+  <style>
+ body {
+    font: 14px Arial, Helvetica, sans-serif;
+    background: #f8f4ff;
+    margin: 0;
+   }
+   h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #8b00ff;
+   }
+   h2 {
+    margin-top: 0;
+    color: #8b00ff;
+   }
+   .header {
+    background: #DDA0DD;
+    padding: 10px;
+   }
+   .sidebar {
+    float: right;
+    border: 1px solid #C71585;
+    background: #f8f4ff;
+    width: 20%;
+    padding: 5px;
+    margin: 10px 10px 20px 5px;
+   }
+   .content {
+    margin: 10px 25% 20px 5px;
+    background: #f8f4ff;
+    padding: 5px;
+   }
+   .footer {
+    background: #DDA0DD;
+    padding: 5px;
+    color: #8b00ff;
+    clear: left;
+   }
+  </style>
+ </head>
+ <body>
+ <div class="header"><input type="button" onclick="history.back();" value="Назад"/><center><h1>Молекулярная кухня</h1></center></div>
+  <div class="sidebar">
+    <p><a href="a.html">Главная</a></p>
+    <p><a href="пов.html">Повара</a></p>
+    <p><a href="Рец.html">Технологии</a></p>
+  </div>
+  <div class="content">
+<form action="action_page.php">
+  <div class="container">
+ <left><p style="text-indent:15px;"><h2><font color="8b00ff">Регистрация</font></h2></p></left>
+    <p>Введите данные для создания аккаунта.</p>
+    <hr>
+
+    <label for="email"><b>Почта</b></label>
+    <p><input type="text" placeholder="Ваша почта" name="email" required></p>
+
+    <p><label for="psw"><b>Пароль</b></label></p>
+    <input type="password" placeholder="Придумайте пароль" name="psw" required>
+
+    <p><label for="psw-repeat"><b>Повторите пароль</b></label></p>
+    <p><input type="password" placeholder="Повторите пароль" name="psw-repeat" required></p>
+    <hr>
+    <button type="submit" class="registerbtn">Зарегистрироваться</button>
+  </div>
+
+  <div class="container signin">
+    <left><p>У Вас уже есть аккаунт? <a href="#">Войти</a>.</p></left>
+  </div>
+</form>
+
+  </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  <div class="footer"><center><a href=Контакты.html>Контакты</a></center></div>
+ </body>
+</html>
